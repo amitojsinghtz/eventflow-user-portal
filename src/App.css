@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,600&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.react-datetime-picker__wrapper {
+  border: none !important;
+}
+div#panel1a-header {
+  /* background-color: #508ff4; */
+  border: 1px solid #dadada !important;
+  border-radius: 6px;
+  color: #080000;
+}
+
+.css-omdhqe-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+  min-height: 1px !important;
+}
+.MuiAccordionSummary-content.MuiAccordionSummary-contentGutters.css-o4b71y-MuiAccordionSummary-content {
+  min-height: 14px !important;
+}
+.d-flex{
+  display: flex
+}
+a {
+  text-decoration: none !important;
+  color:#1e88e5;
+}
+a:hover{
+  color:#508FF4;
+}
+
+.form-control{
+  border-radius: 4px;
+  background: #fff !important;
+}
+
+.MuiSelect-root {
+  background: #fff !important;
+  border-radius: 4px !important;
+}
+fieldset{
+  border-radius: 4px;
+}
+
+legend{
+ width: auto;
+ background: #fff;
+} 
+.MuiInputLabel-root{
+  background: #fff !important;
+
+}
+
+
+.thead-light th{
+font-weight: 600 !important;
+
+}
+
+.MuiPaper-root{
+  border-radius: 4px !important;
+}
+
+/* .css-1sq3a96-MuiButtonBase-root-MuiIconButton-root-MuiCheckbox-root.Mui-checked, .css-1sq3a96-MuiButtonBase-root-MuiIconButton-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+  color: #fff;
+} */
+
+.css-1na8p7t-MuiButtonBase-root-MuiListItem-root-MuiMenuItem-root.MuiListItem-root.Mui-selected {
+  color:#010000;
+  background-color:#d9dee6;
+}
+.MuiCollapse-wrapperInner .css-19pa3nu-MuiButtonBase-root-MuiListItem-root.MuiListItem-root.Mui-selected {
+  color: #508FF4;
+  background-color: #fff;
+}
+.MuiCollapse-wrapperInner .css-19pa3nu-MuiButtonBase-root-MuiListItem-root.MuiListItem-root:hover{
+  color: #508FF4;
+}
+.MuiCollapse-wrapperInner .css-11b9uls-MuiListItemIcon-root {
+  display: none;
+}
+.modal-close {
+  background: #000;
+  position: absolute;
+  top: -10px;
+  right: -12px;
+  color: #fff;
+  text-shadow: none;
+  opacity: .8;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 5px;
+  height:30px;
+}
+
+
+.modal-close:hover {
+  background: #000;
+  position: absolute;
+  top: -10px;
+  right: -12px;
+  color: #fff;
+  text-shadow: none;
+  opacity: 1;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 5px;
+  cursor: pointer;
+}
+div#panel1a-header {
+  /* margin-bottom: 1% !important; */
+}
+
+.action-btn-set2 {
+  min-width: 115px;
+}
+
+.action-btn-set3 {
+  min-width: 180px;
+}
+.table th, .table td {
+  padding: 0.50rem;
+  font-size: 12px;
+  vertical-align: middle;
+}
+.table .thead-light th{
+  font-size: 0.775rem;
+  font-weight: 400;
+}
+thead.MuiTableHead-root.thead-light.css-15wwp11-MuiTableHead-root {
+  /* background-color: black; */
+}
+.makeStyles-listItemNoBack-493 {
+  
+  background-color: white !important;
+ 
+  padding-left: 22px !important;
+}
+
+a.MuiButtonBase-root.MuiListItem-root.MuiListItem-gutters.MuiListItem-button.Mui-selected.makeStyles-listItemNoBack-507.css-19pa3nu-MuiButtonBase-root-MuiListItem-root {
+  color: #4A9FF2;
+}
+
+.defaultAwardRow{ background-color: #e0ebec !important;  }
+
+.icon.small-icon{
+  width:18px; height:18px;
+}
+.MuiPaper-root.groupAccord:before{
+  display: none;
+}
+.groupAccord{
+  background-color: transparent;
+}
+.groupAccord .MuiAccordionSummary-root{
+  margin-bottom:20px;
+  background-color: #fff;
+}
+
+.customSearch{
+  border-radius: 2px;
+}
+
+.award-logo{
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #DCDCDC;
+  text-align: center;
+}
+
+.award-logo img{
+  max-width: 150px;
+  max-height: 150px;
+}

@@ -1,0 +1,47 @@
+[
+    {
+      "id": 1,
+      "name": "Region",
+      "config": {
+        "rootElement": [
+          {
+            "name": "Asia Pacific",
+            "value": "APAC",
+            "nextMenu":[
+                {
+                  "name": "Agency Category",
+                  "value": "AG",
+                  "api":"/api/Category/GetAllCategoriesByCategoryTypeIdAndRegionId"
+                },
+                {
+                  "name": "People Category",
+                  "value": "PP",
+                  "api":"/api/Category/GetAllCategoriesByCategoryTypeIdAndRegionId"
+                },
+                {
+                  "name": "Brand Category",
+                  "value": "BD",
+                  "api":"/api/Category/GetAllCategoriesByCategoryTypeIdAndRegionId"
+                }
+            ]
+          },
+          {
+            "name": "Australia / New Zealand",
+            "value": "ANZ"
+          },
+          {
+            "name": "Japan / Korea",
+            "value": "JPKR"
+          },
+          {
+            "name": "South Asia",
+            "value": "SA"
+          },
+          {
+            "name": "South East Asia",
+            "value": "SEA"
+          }
+        ]
+      }
+    }
+  ]

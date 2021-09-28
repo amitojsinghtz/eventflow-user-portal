@@ -1,0 +1,67 @@
+{
+  "id": 1,
+  "name": "Campaign Asia-Pacific Agency of the Year Awards 2021",
+  "startTime": "2021-04-07T00:00:00.536",
+  "endTime": "2021-11-07T00:00:00.204",
+  "submissionStartTime": "2021-05-07T00:00:00.219",
+  "submissionEndTime": "2021-07-07T21:00:00.146",
+  "jotFormConfig": {
+    "rootElement": {
+      "Workflow": [
+        {
+          "step": "Step1",
+          "stepId":"step1",
+          "action":"form-render",
+          "forms": [
+            {
+              "id": "210902666494056",
+              "seq": 1,
+              "name": "Entry Contact Details",
+              "limit": 1
+            }
+          ]
+        },
+        {
+          "step": "Step2",
+          "stepId":"step2",
+          "action":"form-render",
+          "forms": [
+            {
+              "id": "210924264456052",
+              "seq": 1,
+              "name": "Submission Form",
+              "limit": 0
+            },
+            {
+              "id": "210924264456052",
+              "seq": 1,
+              "name": "Submission Form 2",
+              "limit": 0
+            }
+          ]
+        },
+        {
+            "step": "Step3",
+            "stepId":"step3",
+            "action":"dropdown-render",
+            "forms": [
+              {
+                "id": "210924264456052",
+                "seq": 1,
+                "name": "Submission Form",
+                "limit": 0
+              },
+              {
+                "id": "210924264456052",
+                "seq": 1,
+                "name": "Submission Form 2",
+                "limit": 0
+              }
+            ]
+          }
+      ]
+    }
+  },
+  "aliasCode": "AOY2021",
+  "entryURL": "https://google.com/"
+}

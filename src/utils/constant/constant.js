@@ -1,0 +1,10 @@
+export const BASE_URL = `${process.env.REACT_APP_EVENTFLOW_API_URL}api`;
+export const USER_AWARD_ID = `userAwardId`
+export const USER_AWARD_ALIAS = `userAwardAlias`
+export const USER_AWARD_NAME = `userAwardName`
+export const USER_AWARD_INFO = `userAwardInfo`
+export const USER_ENTRANT_DETAIL_ID = 'userEntrantDetailId'
+export const USER_ID = 'userId'
+export const USER_AWARD = 'userAward'
+export const USER_AWARD_LOGO = 'userAwardLogo'
+export const AUTH_TOKEN = 'authToken'

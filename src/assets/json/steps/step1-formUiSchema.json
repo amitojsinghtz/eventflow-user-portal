@@ -1,0 +1,113 @@
+{
+	"description": {
+		"ui:widget": "CustomTypography",
+		"variant": "subtitle2"
+	},
+	"firstContactTitle": {
+		"ui:widget": "CustomTypography",
+		"variant": "h3"
+	},
+	"firstContactCaption": {
+		"ui:widget": "CustomTypography",
+		"variant": "subtitle1"
+	},
+	"firstName": {
+		"xs": 12,
+		"md": 6
+	},
+	"lastName": {
+		"xs": 12,
+		"md": 6
+	},
+	"city": {
+		"xs": 12,
+		"md": 6
+	},
+	"state": {
+		"xs": 12,
+		"md": 6
+	},
+	"zipcode": {
+		"xs": 12,
+		"md": 6
+	},
+	"country": {
+		"xs": 12,
+		"md": 6
+	},
+	"phonePrefix": {
+		"xs": 5,
+		"md": 5
+	},
+	"phone": {
+		"xs": 7,
+		"md": 7
+	},
+	"mobilePhonePrefix": {
+		"xs": 5,
+		"md": 5
+	},
+	"mobilePhone": {
+		"xs": 7,
+		"md": 7
+	},
+	"typeOfCompanyTitle": {
+		"ui:widget": "CustomTypography",
+		"variant": "subtitle1"
+	},
+	"howKnowAoyTitle": {
+		"ui:widget": "CustomTypography",
+		"variant": "subtitle1"
+	},
+	"reciveNewsOffers": {
+		"ui:widget": "checkboxes"
+	},
+	"termsTitle": {
+		"ui:widget": "CustomTypography",
+		"variant": "body1"
+	},
+	"terms": {
+		"ui:widget": "checkboxes"
+	},
+	"aliasCode": {
+		"ui:widget": "hidden"
+	},
+	"breakOne": {
+		"ui:widget": "Break"
+	},
+
+	"secondaryContactTitle": {
+		"ui:widget": "CustomTypography",
+		"variant": "h3"
+	},
+	"secondaryContactCaption": {
+		"ui:widget": "CustomTypography",
+		"variant": "subtitle1"
+	},
+	"secondFirstName": {
+		"xs": 12,
+		"md": 6
+	},
+	"secondLastName": {
+		"xs": 12,
+		"md": 6
+	},
+	"secondPhonePrefix": {
+		"xs": 5,
+		"md": 5
+	},
+	"secondPhone": {
+		"xs": 7,
+		"md": 7
+	},
+	"secondReciveNewsOffers": {
+		"ui:widget": "checkboxes"
+	},
+	"secondTermsTitle": {
+		"ui:widget": "CustomTypography",
+		"variant": "body1"
+	},
+	"secondTerms": {
+		"ui:widget": "checkboxes"
+	}
+}
